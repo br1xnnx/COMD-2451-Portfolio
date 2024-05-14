@@ -1,0 +1,77 @@
+/* Font */
+body, h1, h2, h3, h4, h5 {
+    font-family: "Raleway", sans-serif;
+}
+
+/* Image Styles */
+.w3-third img {
+    margin-bottom: -6px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.w3-third img:hover {
+    opacity: 1;
+}
+
+/* Sidebar Styles */
+.w3-sidebar {
+    width: 300px;
+    z-index: 3;
+    font-weight: bold;
+}
+
+/* Top Menu Styles */
+.w3-top {
+    position: fixed;
+    width: 100%;
+}
+
+.w3-padding {
+    padding: 16px;
+}
+
+/* Main Content Styles */
+.main {
+    margin-left: 300px; /* Same width as the sidebar */
+    padding: 16px;
+}
+
+/* Portfolio Section Styles */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/* About Section Styles */
+.w3-dark-grey {
+    background-color: #333;
+    color: #fff;
+}
+
+.w3-image {
+    margin: auto;
+}
+
+/* Contact Section Styles */
+.w3-light-grey {
+    background-color: #f1f1f1;
+}
+
+.w3-padding-large {
+    padding: 24px 48px;
+}
+
+/* Footer Styles */
+.w3-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+}
