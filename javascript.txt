@@ -7,3 +7,26 @@ function w3_open() {
 function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
 }
+
+// JavaScript for Image Lightbox
+
+document.addEventListener('DOMContentLoaded', function () {
+    const galleryImages = document.querySelectorAll('.gallery__grid img');
+
+    galleryImages.forEach(function (img) {
+        img.addEventListener('click', function () {
+            const overlay = document.createElement('div');
+            overlay.classList.add('overlay');
+
+            const imgClone = img.cloneNode();
+            imgClone.classList.add('expanded-img');
+
+            overlay.appendChild(imgClone);
+            document.body.appendChild(overlay);
+
+            overlay.addEventListener('click', function () {
+                overlay.remove();
+            });
+        });
+    });
+});

@@ -38,7 +38,53 @@
       <p></p>
       
       <!-- Portfolio Gallery Grid -->
+    
 
+      <style>
+        .gallery__grid {
+          margin-block: 2rem;
+          display: grid;
+          gap: 1rem;
+          grid-template-columns: repeat(2, 1fr);
+        }
+    
+        .gallery__grid img:hover {
+          transform: scale(1.1);
+        }
+    
+        @media (min-width: 540px) {
+          .gallery__grid {
+            grid-template-columns: repeat(3, 1fr);
+          }
+        }
+    
+        @media (min-width: 768px) {
+          .gallery__grid {
+            grid-template-columns: repeat(4, 1fr);
+          }
+        }
+      </style>
+      
+      <div class="gallery__grid">
+        <img src="assets/Rachel1.png" alt="gallery image 1" />
+        <img src="assets/Rachel2.png" alt="gallery image 2" />
+        <img src="assets/Rachel3.png" alt="gallery image 3" />
+        <img src="assets/Dolce1.jpg" alt="gallery image 4" />
+        <img src="assets/Dolce2.jpg" alt="gallery image 5" />
+        <img src="assets/Dolce3.jpg" alt="gallery image 6" />
+        <img src="assets/originalcalmgirl.jpeg" alt="gallery image 7" />
+        <img src="assets/calmgirlsam1.png" alt="gallery image 8" />
+        <img src="assets/calmgirlsam2.png" alt="gallery image 9" />
+        <img src="assets/calmgirlsam3.png" alt="gallery image 10" />
+        <img src="assets/originalburg.jpeg" alt="gallery image 11" />
+        <img src="assets/burg1.png" alt="gallery image 12" />
+        <img src="assets/burg2.png" alt="gallery image 13" />
+        <img src="assets/burg3.png" alt="gallery image 14" />
+      </div>
+      <div class="gallery__btn">
+     
+      </div>
+    </section>
 
 
       <!-- About section -->
